@@ -22,7 +22,7 @@ h1 {
 }
 
 h2 {
-  font-size: 48px;
+  font-size: 50px;
 }
 
 h3 {
@@ -36,6 +36,7 @@ p {
   font-size: 18px;
   line-height: 1.5;
   text-align: center;
+  margin: 0px;
 }
 
 .navigation-links {
@@ -88,4 +89,26 @@ p {
 
 .email-link:hover {
   text-decoration: underline;
+}
+#contact {
+  margin-top: 50px;
+  margin-bottom: 90px;
+}
+@media (max-width: 576px) {
+  h1 {
+    font-size: 46px;
+  }
+  .hp-image {
+    display: none;
+  }
+  .navigation-links {
+    margin-top: 5px;
+  }
+  .app-link {
+    width: 70%;
+    text-align: center;
+  }
+  p {
+    padding-bottom: 0px;
+  }
 }
